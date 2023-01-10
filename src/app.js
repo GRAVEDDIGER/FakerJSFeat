@@ -5,7 +5,7 @@ const handlebars= require('express-handlebars')
 const colors= require("colors");
 const router = require("./routes/product.js");
 const app=express()
-app.use(express.static('public'))
+app.use(express.static(path.join(__dirname, 'public')))
 app.use('/products',router)
 app.engine('handlebars',handlebars.engine())
 app.set('views',path.join(__dirname,'views'))
