@@ -27,6 +27,5 @@ npm run test
 6. COLORS
 
 ### STATIC VIEW:
-
-![image-20230110025514310](C:\Users\aabadin\AppData\Roaming\Typora\typora-user-images\image-20230110025514310.png)
+![Alt text](Faker%20JS_page-0001.jpg)
 
