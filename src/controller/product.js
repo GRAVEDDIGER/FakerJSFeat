@@ -10,8 +10,9 @@ class Product {
     }
 }
 const obtenerData= (req,res)=>{
+//valida que se pasen los objetos de request y response
 if (Object.prototype.toString.call(req) !== '[object Object]') throw new Error("req should be an object")
-if (Object.prototype.toString.call(res) !== '[object Object]') throw new Error("res should be an object")
+if (!("render" in res)) throw new Error("res should be an object")
 const response =[]
 for (let i=0;i<5;i++){
     const fotoSelector=['fashion']
