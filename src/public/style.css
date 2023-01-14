@@ -50,3 +50,58 @@ img{
     max-width: 200px;
 align-self: flex-end;
 }
+.buttonSub{
+    border-radius: 15%;
+    background-color: azure;
+    border: 3px solid #333;
+    box-shadow: 3px 3px 15px #666;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+.userData{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    
+
+}
+.userData >input{
+    width: clamp(300px,400px,450px);
+    border-radius: 10%;
+    padding: 1rem;
+    margin: 1rem;
+}
+.invisible{
+    display: none;
+}
+.chatBox{
+    display: flex;
+    width: clamp(600px,900px,1200px);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    min-height: 300px;
+    border: 4px dashed #333;
+}
+.msgBoxClass{
+    border-radius: 10%;
+    padding: 1rem;
+    margin: 1rem;
+    flex:0.9;
+}
+.messageBoxCombo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: clamp(600px,900px,1200px);
+
+}
+.sendMessageButton{
+    margin: 1rem;
+    width: 50px;
+    border-radius: 15px;
+
+}
