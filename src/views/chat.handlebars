@@ -1,7 +1,7 @@
 <script src="/socket.io/socket.io.js"></script>
 
 <main>
-  <form id="userForm" action="/chat/user" method="post" class="userData">
+  <form id="userForm" action="#" class="userData">
     <h2>Datos del usuario</h2>
     <input type="text" name="id" id="id" placeholder="e-Mail" />
     <input type="text" name="nombre" id="lastName" placeholder="Apellido" />
@@ -13,7 +13,7 @@
   </form>
   <form id="messageForm" action="#" class="userData">
     <h2>Chat</h2>
-    <section class="chatBox">
+    <section class="chatBox" id="chatBox">
 
     </section>
     <div class="messageBoxCombo">
@@ -29,3 +29,4 @@
   </form>
 </main>
 <script src="chat.js"></script>
+

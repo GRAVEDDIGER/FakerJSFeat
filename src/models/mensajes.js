@@ -26,5 +26,5 @@ const messageSchema =new Schema({
     }},{timestamps:true}
 
 )
-const userModel=mongoose.model("userCollection",messageSchema)
-module.exports=userModel
+const userModel=mongoose.model("messageCollection",messageSchema)
+module.exports={userModel,dbConnect}
