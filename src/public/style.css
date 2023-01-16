@@ -120,4 +120,5 @@ align-self: flex-end;
 .imgTag{
     width: 32px;
     border: 2px solid #333;
+border-radius: 60%;
 }

@@ -40,4 +40,3 @@ socket.on('serverMessage',(message)=>{
 </div>`
 })
 })
-socket.on('persist',message=>console.log(JSON.parse(message)))

@@ -27,4 +27,4 @@ const messageSchema =new Schema({
 
 )
 const userModel=mongoose.model("messageCollection",messageSchema)
-module.exports={userModel,dbConnect}
+module.exports=userModel
